@@ -16,6 +16,13 @@
 		DF1968F3256E5A5B0000E42E /* 二叉树的公共祖先.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1968F2256E5A5B0000E42E /* 二叉树的公共祖先.swift */; };
 		DF1968F8256E5C5F0000E42E /* 双向链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1968F7256E5C5F0000E42E /* 双向链表.swift */; };
 		DF1968FC256E62CF0000E42E /* 二叉树中和为某一个值的路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1968FB256E62CF0000E42E /* 二叉树中和为某一个值的路径.swift */; };
+		DF196902256F42740000E42E /* 火柴拼正方.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF196901256F42740000E42E /* 火柴拼正方.swift */; };
+		DF196907256F4C670000E42E /* FlogJump.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF196906256F4C670000E42E /* FlogJump.swift */; };
+		DF19690C256F50170000E42E /* 从上到小打印二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19690B256F50170000E42E /* 从上到小打印二叉树.swift */; };
+		DF196911256F56C60000E42E /* palindromicNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF196910256F56C60000E42E /* palindromicNumber.swift */; };
+		DF196953256FB0AE0000E42E /* repeatDNA.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF196952256FB0AD0000E42E /* repeatDNA.swift */; };
+		DF19695D256FB7AC0000E42E /* palindromicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19695C256FB7AC0000E42E /* palindromicInt.swift */; };
+		DF196961257093F20000E42E /* MerginOrderlink.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF196960257093F20000E42E /* MerginOrderlink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +37,13 @@
 		DF1968F2256E5A5B0000E42E /* 二叉树的公共祖先.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "二叉树的公共祖先.swift"; sourceTree = "<group>"; };
 		DF1968F7256E5C5F0000E42E /* 双向链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "双向链表.swift"; sourceTree = "<group>"; };
 		DF1968FB256E62CF0000E42E /* 二叉树中和为某一个值的路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "二叉树中和为某一个值的路径.swift"; sourceTree = "<group>"; };
+		DF196901256F42740000E42E /* 火柴拼正方.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "火柴拼正方.swift"; sourceTree = "<group>"; };
+		DF196906256F4C670000E42E /* FlogJump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlogJump.swift; sourceTree = "<group>"; };
+		DF19690B256F50170000E42E /* 从上到小打印二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "从上到小打印二叉树.swift"; sourceTree = "<group>"; };
+		DF196910256F56C60000E42E /* palindromicNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palindromicNumber.swift; sourceTree = "<group>"; };
+		DF196952256FB0AD0000E42E /* repeatDNA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repeatDNA.swift; sourceTree = "<group>"; };
+		DF19695C256FB7AC0000E42E /* palindromicInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palindromicInt.swift; sourceTree = "<group>"; };
+		DF196960257093F20000E42E /* MerginOrderlink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerginOrderlink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,13 @@
 		DF1968DA256E59F80000E42E /* HT_LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				DF19695F257093C70000E42E /* 合并两个有序链表 */,
+				DF196956256FB76E0000E42E /* 回文数 */,
+				DF196951256FB0840000E42E /* 重复的DNA */,
+				DF19690F256F56A00000E42E /* 最长回文字符串 */,
+				DF19690A256F4FFD0000E42E /* 从上到下打印二叉树 */,
+				DF196905256F4C4E0000E42E /* 青蛙跳台阶问题 */,
+				DF196900256F42570000E42E /* 火柴拼正方形 */,
 				DF1968FE256E62D40000E42E /* 二叉树中和为某一个值的路径 */,
 				DF1968F6256E5BFD0000E42E /* 二叉搜索树与双向链表 */,
 				DF1968F1256E5A200000E42E /* 二叉树上两个节点的最近公共祖先 */,
@@ -98,6 +119,62 @@
 				DF1968FB256E62CF0000E42E /* 二叉树中和为某一个值的路径.swift */,
 			);
 			path = "二叉树中和为某一个值的路径";
+			sourceTree = "<group>";
+		};
+		DF196900256F42570000E42E /* 火柴拼正方形 */ = {
+			isa = PBXGroup;
+			children = (
+				DF196901256F42740000E42E /* 火柴拼正方.swift */,
+			);
+			path = "火柴拼正方形";
+			sourceTree = "<group>";
+		};
+		DF196905256F4C4E0000E42E /* 青蛙跳台阶问题 */ = {
+			isa = PBXGroup;
+			children = (
+				DF196906256F4C670000E42E /* FlogJump.swift */,
+			);
+			path = "青蛙跳台阶问题";
+			sourceTree = "<group>";
+		};
+		DF19690A256F4FFD0000E42E /* 从上到下打印二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				DF19690B256F50170000E42E /* 从上到小打印二叉树.swift */,
+			);
+			path = "从上到下打印二叉树";
+			sourceTree = "<group>";
+		};
+		DF19690F256F56A00000E42E /* 最长回文字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				DF196910256F56C60000E42E /* palindromicNumber.swift */,
+			);
+			path = "最长回文字符串";
+			sourceTree = "<group>";
+		};
+		DF196951256FB0840000E42E /* 重复的DNA */ = {
+			isa = PBXGroup;
+			children = (
+				DF196952256FB0AD0000E42E /* repeatDNA.swift */,
+			);
+			path = "重复的DNA";
+			sourceTree = "<group>";
+		};
+		DF196956256FB76E0000E42E /* 回文数 */ = {
+			isa = PBXGroup;
+			children = (
+				DF19695C256FB7AC0000E42E /* palindromicInt.swift */,
+			);
+			path = "回文数";
+			sourceTree = "<group>";
+		};
+		DF19695F257093C70000E42E /* 合并两个有序链表 */ = {
+			isa = PBXGroup;
+			children = (
+				DF196960257093F20000E42E /* MerginOrderlink.swift */,
+			);
+			path = "合并两个有序链表";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,10 +247,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF196902256F42740000E42E /* 火柴拼正方.swift in Sources */,
 				DF1968E0256E59F80000E42E /* ViewController.swift in Sources */,
 				DF1968DC256E59F80000E42E /* AppDelegate.swift in Sources */,
+				DF196953256FB0AE0000E42E /* repeatDNA.swift in Sources */,
+				DF196911256F56C60000E42E /* palindromicNumber.swift in Sources */,
+				DF196961257093F20000E42E /* MerginOrderlink.swift in Sources */,
+				DF19690C256F50170000E42E /* 从上到小打印二叉树.swift in Sources */,
 				DF1968FC256E62CF0000E42E /* 二叉树中和为某一个值的路径.swift in Sources */,
 				DF1968F3256E5A5B0000E42E /* 二叉树的公共祖先.swift in Sources */,
+				DF19695D256FB7AC0000E42E /* palindromicInt.swift in Sources */,
+				DF196907256F4C670000E42E /* FlogJump.swift in Sources */,
 				DF1968F8256E5C5F0000E42E /* 双向链表.swift in Sources */,
 				DF1968DE256E59F80000E42E /* SceneDelegate.swift in Sources */,
 			);

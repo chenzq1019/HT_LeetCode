@@ -18,6 +18,15 @@ public class TreeNode{
     }
 }
 
+public class ListNode {
+    public var val: Int
+    public var next: ListNode?
+    init(_ val: Int) {
+        self.val = val
+    }
+}
+
+
 
 class ViewController: UIViewController {
 
@@ -25,7 +34,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 //        test()
-        testDoubleLinke()
+//        testDoubleLinke()
+        
+//        testSumEqualTo()
+        
+//        testMatchSqure()
+        
+//        testFromJumpSteps()
+//        testPrintBinaryTree()
+        
+//        print(findMaxlenthPalindromicNumber(str: "abcdc"))
+        
+//        testRepeatDNA()
+//        testHuiwenShu()
+        testMergeTwoList()
     }
 
 
