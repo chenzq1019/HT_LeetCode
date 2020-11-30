@@ -47,7 +47,9 @@ class ViewController: UIViewController {
         
 //        testRepeatDNA()
 //        testHuiwenShu()
-        testMergeTwoList()
+//        testMergeTwoList()
+//          testSortFunction()
+        testFindNumberInMatrix()
     }
 
 

@@ -23,6 +23,10 @@
 		DF196953256FB0AE0000E42E /* repeatDNA.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF196952256FB0AD0000E42E /* repeatDNA.swift */; };
 		DF19695D256FB7AC0000E42E /* palindromicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19695C256FB7AC0000E42E /* palindromicInt.swift */; };
 		DF196961257093F20000E42E /* MerginOrderlink.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF196960257093F20000E42E /* MerginOrderlink.swift */; };
+		DF19696625709ED30000E42E /* NoRepeatMaxLenthSubStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19696525709ED30000E42E /* NoRepeatMaxLenthSubStr.swift */; };
+		DF19696B25709F790000E42E /* findMiddleNumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19696A25709F790000E42E /* findMiddleNumer.swift */; };
+		DF19696F2570A3980000E42E /* HT_SortDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19696E2570A3980000E42E /* HT_SortDemo.swift */; };
+		DF196980257102070000E42E /* findNumerInMartrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19697F257102070000E42E /* findNumerInMartrix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		DF196952256FB0AD0000E42E /* repeatDNA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repeatDNA.swift; sourceTree = "<group>"; };
 		DF19695C256FB7AC0000E42E /* palindromicInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palindromicInt.swift; sourceTree = "<group>"; };
 		DF196960257093F20000E42E /* MerginOrderlink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerginOrderlink.swift; sourceTree = "<group>"; };
+		DF19696525709ED30000E42E /* NoRepeatMaxLenthSubStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoRepeatMaxLenthSubStr.swift; sourceTree = "<group>"; };
+		DF19696A25709F790000E42E /* findMiddleNumer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findMiddleNumer.swift; sourceTree = "<group>"; };
+		DF19696E2570A3980000E42E /* HT_SortDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HT_SortDemo.swift; sourceTree = "<group>"; };
+		DF19697F257102070000E42E /* findNumerInMartrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findNumerInMartrix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,10 @@
 		DF1968DA256E59F80000E42E /* HT_LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				DF19697E257101D40000E42E /* 二维数组中查找某个数 */,
+				DF19696D2570A3770000E42E /* 排序算法 */,
+				DF19696925709F4B0000E42E /* 求两个正序数组中的中位数 */,
+				DF19696425709EA80000E42E /* 无重复字符的最长子串 */,
 				DF19695F257093C70000E42E /* 合并两个有序链表 */,
 				DF196956256FB76E0000E42E /* 回文数 */,
 				DF196951256FB0840000E42E /* 重复的DNA */,
@@ -177,6 +189,38 @@
 			path = "合并两个有序链表";
 			sourceTree = "<group>";
 		};
+		DF19696425709EA80000E42E /* 无重复字符的最长子串 */ = {
+			isa = PBXGroup;
+			children = (
+				DF19696525709ED30000E42E /* NoRepeatMaxLenthSubStr.swift */,
+			);
+			path = "无重复字符的最长子串";
+			sourceTree = "<group>";
+		};
+		DF19696925709F4B0000E42E /* 求两个正序数组中的中位数 */ = {
+			isa = PBXGroup;
+			children = (
+				DF19696A25709F790000E42E /* findMiddleNumer.swift */,
+			);
+			path = "求两个正序数组中的中位数";
+			sourceTree = "<group>";
+		};
+		DF19696D2570A3770000E42E /* 排序算法 */ = {
+			isa = PBXGroup;
+			children = (
+				DF19696E2570A3980000E42E /* HT_SortDemo.swift */,
+			);
+			path = "排序算法";
+			sourceTree = "<group>";
+		};
+		DF19697E257101D40000E42E /* 二维数组中查找某个数 */ = {
+			isa = PBXGroup;
+			children = (
+				DF19697F257102070000E42E /* findNumerInMartrix.swift */,
+			);
+			path = "二维数组中查找某个数";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -248,15 +292,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF196902256F42740000E42E /* 火柴拼正方.swift in Sources */,
+				DF196980257102070000E42E /* findNumerInMartrix.swift in Sources */,
 				DF1968E0256E59F80000E42E /* ViewController.swift in Sources */,
 				DF1968DC256E59F80000E42E /* AppDelegate.swift in Sources */,
 				DF196953256FB0AE0000E42E /* repeatDNA.swift in Sources */,
+				DF19696F2570A3980000E42E /* HT_SortDemo.swift in Sources */,
 				DF196911256F56C60000E42E /* palindromicNumber.swift in Sources */,
 				DF196961257093F20000E42E /* MerginOrderlink.swift in Sources */,
 				DF19690C256F50170000E42E /* 从上到小打印二叉树.swift in Sources */,
+				DF19696625709ED30000E42E /* NoRepeatMaxLenthSubStr.swift in Sources */,
 				DF1968FC256E62CF0000E42E /* 二叉树中和为某一个值的路径.swift in Sources */,
 				DF1968F3256E5A5B0000E42E /* 二叉树的公共祖先.swift in Sources */,
 				DF19695D256FB7AC0000E42E /* palindromicInt.swift in Sources */,
+				DF19696B25709F790000E42E /* findMiddleNumer.swift in Sources */,
 				DF196907256F4C670000E42E /* FlogJump.swift in Sources */,
 				DF1968F8256E5C5F0000E42E /* 双向链表.swift in Sources */,
 				DF1968DE256E59F80000E42E /* SceneDelegate.swift in Sources */,
