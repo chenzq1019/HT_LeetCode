@@ -25,11 +25,13 @@ import Foundation
  */
 
 func testFromJumpSteps() -> Void {
-    let steps = 10
-    print(frogJumpNumberSteps(step: steps))
+    let steps :Double = 50
+//    print(frogJumpNumberSteps(step: steps))
+    print(frogJumpNumberStepsDyanmic(step: steps))
+    print(frogJumpNumberStepsDyanmic2(step: steps))
 }
-
-func frogJumpNumberSteps( step: Int) -> Int {
+//用递归的方法
+func frogJumpNumberSteps( step: Double) -> Double {
     if step <= 0 {
         return 0
     }
@@ -40,4 +42,49 @@ func frogJumpNumberSteps( step: Int) -> Int {
         return 2
     }
     return frogJumpNumberSteps(step: step - 1) + frogJumpNumberSteps(step: step - 2)
+}
+
+//用动态规划，因为如果用递归的化，台阶数变大的，递归会出现内存溢出，而且重复计算次数层指数级提高，效率非常低。
+//我们可以用动态规划，例如我们使用数组保存每次计算好的次数。然后每次去上次计算过的最优值，就可以了。
+
+func frogJumpNumberStepsDyanmic(step: Double) -> Double {
+    var numbsSetps : [Double] = Array(repeating: 0, count: Int(step))
+    var start = 0
+    numbsSetps[0] = 0
+    numbsSetps[1] = 1
+    numbsSetps[2] = 2
+    if step < 3 {
+        return numbsSetps[Int(step)]
+    }
+    start = 3
+    while start < Int(step) {
+        numbsSetps[start] =  numbsSetps[start - 1] + numbsSetps[start - 2]
+        start += 1
+    }
+    return numbsSetps[Int(step-1)]
+}
+
+//上面我们使用数组，其实这个不是最好的方法，因为他开辟一个巨大的内存空间，
+//其实我们是可以只保留上两次的值就可以了。
+func frogJumpNumberStepsDyanmic2(step: Double) -> Double {
+    if step <= 0 {
+        return 0
+    }
+    if step == 1 {
+        return 1
+    }
+    if step == 2 {
+        return 2
+    }
+    var start = 3
+    var f1 = 1
+    var f2 = 2
+    var f3 = f2 + f1
+    while start < Int(step) {
+        f3 = f2 + f1
+        f1 = f2
+        f2 = f3
+        start += 1
+    }
+    return Double(f3)
 }
