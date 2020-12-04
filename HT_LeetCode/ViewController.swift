@@ -49,7 +49,8 @@ class ViewController: UIViewController {
 //        testHuiwenShu()
 //        testMergeTwoList()
 //          testSortFunction()
-        testFindNumberInMatrix()
+//        testFindNumberInMatrix()
+        testInvertOrderPrintLink()
     }
 
 

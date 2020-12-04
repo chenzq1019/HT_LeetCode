@@ -67,5 +67,4 @@ func findInMatrixFor(matrix: [[Int]],target: Int) -> Bool {
             return true
         }
     }
-    
 }
