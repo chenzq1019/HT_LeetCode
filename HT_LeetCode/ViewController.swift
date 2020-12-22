@@ -68,7 +68,10 @@ class ViewController: UIViewController {
 //        testRotatoArray()
 //        testPrintNumber();
 //        testDeleNodeMain()
-        testJianzhiOffer14()
+//        testJianzhiOffer14()
+//        testJianzhiOffer15()
+//        testJianzhiOffer16()
+        testJianzhiOffer19()
     }
 
 
