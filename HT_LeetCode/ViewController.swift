@@ -65,7 +65,17 @@ class ViewController: UIViewController {
 //
 //        queue.appendTail(value: 5)
 //        print("delete head \(queue.removeHead() ?? "")")
-        testRotatoArray()
+//        testRotatoArray()
+//        testPrintNumber();
+//        testDeleNodeMain()
+//        testJianzhiOffer14()
+//        testJianzhiOffer15()
+//        testJianzhiOffer16()
+//        testJianzhiOffer19()
+//        testJianzhiOffer20()
+//         testJianzhiOffer21()
+//        testJianzhiOffer22()
+        testJianzhiOffer24() 
     }
 
 
