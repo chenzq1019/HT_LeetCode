@@ -43,6 +43,10 @@
 		DF8658202577349400A50666 /* RebuildBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF86581F2577349400A50666 /* RebuildBinaryTree.swift */; };
 		DFDA68D925A2B4AD00599C60 /* 剑指offer26题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDA68D825A2B4AD00599C60 /* 剑指offer26题.swift */; };
 		DFDA68DE25A3180C00599C60 /* 剑指offer28题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDA68DD25A3180C00599C60 /* 剑指offer28题.swift */; };
+		DFDA68E425A550B500599C60 /* 剑指offer29题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDA68E325A550B500599C60 /* 剑指offer29题.swift */; };
+		DFDA68E925A7F06A00599C60 /* 剑指offer30题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDA68E825A7F06A00599C60 /* 剑指offer30题.swift */; };
+		DFDA68EE25A7FC8E00599C60 /* 剑指offer31题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDA68ED25A7FC8E00599C60 /* 剑指offer31题.swift */; };
+		DFDA68F325A8368000599C60 /* 剑指offer32题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDA68F225A8368000599C60 /* 剑指offer32题.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +88,10 @@
 		DF86581F2577349400A50666 /* RebuildBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebuildBinaryTree.swift; sourceTree = "<group>"; };
 		DFDA68D825A2B4AD00599C60 /* 剑指offer26题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer26题.swift"; sourceTree = "<group>"; };
 		DFDA68DD25A3180C00599C60 /* 剑指offer28题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer28题.swift"; sourceTree = "<group>"; };
+		DFDA68E325A550B500599C60 /* 剑指offer29题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer29题.swift"; sourceTree = "<group>"; };
+		DFDA68E825A7F06A00599C60 /* 剑指offer30题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer30题.swift"; sourceTree = "<group>"; };
+		DFDA68ED25A7FC8E00599C60 /* 剑指offer31题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer31题.swift"; sourceTree = "<group>"; };
+		DFDA68F225A8368000599C60 /* 剑指offer32题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer32题.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +124,10 @@
 		DF1968DA256E59F80000E42E /* HT_LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				DFDA68F125A8365800599C60 /* 从1到n整数中1出现的次数 */,
+				DFDA68EC25A7FC7400599C60 /* 连续子数组的最大和 */,
+				DFDA68E725A7F04F00599C60 /* 最小的K个数 */,
+				DFDA68E225A5508E00599C60 /* 数组中出现次数超过一半的数字 */,
 				DFDA68DC25A317EC00599C60 /* 字符串的排列以及组合 */,
 				DFDA68D725A2B2D500599C60 /* 复杂链表的复制 */,
 				DF746F94259DCEF200781978 /* 二叉搜索树的后续遍历序列 */,
@@ -397,6 +409,38 @@
 			path = "字符串的排列以及组合";
 			sourceTree = "<group>";
 		};
+		DFDA68E225A5508E00599C60 /* 数组中出现次数超过一半的数字 */ = {
+			isa = PBXGroup;
+			children = (
+				DFDA68E325A550B500599C60 /* 剑指offer29题.swift */,
+			);
+			path = "数组中出现次数超过一半的数字";
+			sourceTree = "<group>";
+		};
+		DFDA68E725A7F04F00599C60 /* 最小的K个数 */ = {
+			isa = PBXGroup;
+			children = (
+				DFDA68E825A7F06A00599C60 /* 剑指offer30题.swift */,
+			);
+			path = "最小的K个数";
+			sourceTree = "<group>";
+		};
+		DFDA68EC25A7FC7400599C60 /* 连续子数组的最大和 */ = {
+			isa = PBXGroup;
+			children = (
+				DFDA68ED25A7FC8E00599C60 /* 剑指offer31题.swift */,
+			);
+			path = "连续子数组的最大和";
+			sourceTree = "<group>";
+		};
+		DFDA68F125A8365800599C60 /* 从1到n整数中1出现的次数 */ = {
+			isa = PBXGroup;
+			children = (
+				DFDA68F225A8368000599C60 /* 剑指offer32题.swift */,
+			);
+			path = "从1到n整数中1出现的次数";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -484,6 +528,7 @@
 				DF19696625709ED30000E42E /* NoRepeatMaxLenthSubStr.swift in Sources */,
 				DF5F28F02591CCFA00FD6E1C /* 剑指offer19.swift in Sources */,
 				DF4A7FF4257A12C600194D84 /* rotateArraysMinNumber.swift in Sources */,
+				DFDA68EE25A7FC8E00599C60 /* 剑指offer31题.swift in Sources */,
 				DF5F297C2594682E00FD6E1C /* 剑指offer22题.swift in Sources */,
 				DF1968FC256E62CF0000E42E /* 二叉树中和为某一个值的路径.swift in Sources */,
 				DF1968F3256E5A5B0000E42E /* 二叉树的公共祖先.swift in Sources */,
@@ -495,11 +540,14 @@
 				DF19695D256FB7AC0000E42E /* palindromicInt.swift in Sources */,
 				DF746F96259DCF2100781978 /* 剑指offer24题.swift in Sources */,
 				DF19696B25709F790000E42E /* findMiddleNumer.swift in Sources */,
+				DFDA68F325A8368000599C60 /* 剑指offer32题.swift in Sources */,
 				DF196907256F4C670000E42E /* FlogJump.swift in Sources */,
 				DF1968F8256E5C5F0000E42E /* 双向链表.swift in Sources */,
+				DFDA68E425A550B500599C60 /* 剑指offer29题.swift in Sources */,
 				DF1968DE256E59F80000E42E /* SceneDelegate.swift in Sources */,
 				DF4A7FEF257A0E1200194D84 /* twoStacksQueue.swift in Sources */,
 				DFDA68DE25A3180C00599C60 /* 剑指offer28题.swift in Sources */,
+				DFDA68E925A7F06A00599C60 /* 剑指offer30题.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
