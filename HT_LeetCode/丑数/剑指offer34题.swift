@@ -83,9 +83,7 @@ fileprivate func GetUglyNumber_Solution2(index: Int) ->[Int]?{
             pMutiplay5 += 1
         }
         nextUglyIndex += 1
-    }
-    
-    let ugly = pUglyNumbers[nextUglyIndex - 1]
+    }    
     return pUglyNumbers
 }
 

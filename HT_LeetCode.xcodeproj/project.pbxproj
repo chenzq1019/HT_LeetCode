@@ -41,6 +41,7 @@
 		DF5F297C2594682E00FD6E1C /* 剑指offer22题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5F297B2594682E00FD6E1C /* 剑指offer22题.swift */; };
 		DF746F96259DCF2100781978 /* 剑指offer24题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF746F95259DCF2100781978 /* 剑指offer24题.swift */; };
 		DF75DEDC25EDD03E004BC7DD /* 剑指offer34题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF75DEDB25EDD03E004BC7DD /* 剑指offer34题.swift */; };
+		DF75DEE025EF2F04004BC7DD /* 剑指Offer35题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF75DEDF25EF2F04004BC7DD /* 剑指Offer35题.swift */; };
 		DF86581B25772C3700A50666 /* invertedOrderPrintLinkNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF86581A25772C3700A50666 /* invertedOrderPrintLinkNode.swift */; };
 		DF8658202577349400A50666 /* RebuildBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF86581F2577349400A50666 /* RebuildBinaryTree.swift */; };
 		DFDA68D925A2B4AD00599C60 /* 剑指offer26题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDA68D825A2B4AD00599C60 /* 剑指offer26题.swift */; };
@@ -88,6 +89,7 @@
 		DF5F297B2594682E00FD6E1C /* 剑指offer22题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer22题.swift"; sourceTree = "<group>"; };
 		DF746F95259DCF2100781978 /* 剑指offer24题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer24题.swift"; sourceTree = "<group>"; };
 		DF75DEDB25EDD03E004BC7DD /* 剑指offer34题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer34题.swift"; sourceTree = "<group>"; };
+		DF75DEDF25EF2F04004BC7DD /* 剑指Offer35题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer35题.swift"; sourceTree = "<group>"; };
 		DF86581A25772C3700A50666 /* invertedOrderPrintLinkNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invertedOrderPrintLinkNode.swift; sourceTree = "<group>"; };
 		DF86581F2577349400A50666 /* RebuildBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebuildBinaryTree.swift; sourceTree = "<group>"; };
 		DFDA68D825A2B4AD00599C60 /* 剑指offer26题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer26题.swift"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		DF1968DA256E59F80000E42E /* HT_LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				DF75DEDE25EF2EE3004BC7DD /* 第一个出现一次的字符 */,
 				DF75DEDA25EDD010004BC7DD /* 丑数 */,
 				DF147A6125ABF66F00A0536D /* 把数组排成最小的数 */,
 				DFDA68F125A8365800599C60 /* 从1到n整数中1出现的次数 */,
@@ -399,6 +402,14 @@
 			path = "丑数";
 			sourceTree = "<group>";
 		};
+		DF75DEDE25EF2EE3004BC7DD /* 第一个出现一次的字符 */ = {
+			isa = PBXGroup;
+			children = (
+				DF75DEDF25EF2F04004BC7DD /* 剑指Offer35题.swift */,
+			);
+			path = "第一个出现一次的字符";
+			sourceTree = "<group>";
+		};
 		DF86581925772BF000A50666 /* 从尾到头倒序打印链表 */ = {
 			isa = PBXGroup;
 			children = (
@@ -554,6 +565,7 @@
 				DFDA68EE25A7FC8E00599C60 /* 剑指offer31题.swift in Sources */,
 				DF5F297C2594682E00FD6E1C /* 剑指offer22题.swift in Sources */,
 				DF1968FC256E62CF0000E42E /* 二叉树中和为某一个值的路径.swift in Sources */,
+				DF75DEE025EF2F04004BC7DD /* 剑指Offer35题.swift in Sources */,
 				DF1968F3256E5A5B0000E42E /* 二叉树的公共祖先.swift in Sources */,
 				DF86581B25772C3700A50666 /* invertedOrderPrintLinkNode.swift in Sources */,
 				DFDA68D925A2B4AD00599C60 /* 剑指offer26题.swift in Sources */,
