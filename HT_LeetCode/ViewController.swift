@@ -83,7 +83,11 @@ class ViewController: UIViewController {
 //        testJianzhiOffer31()
 //        testJianzhiOffer32()
 //        testJianzhiOffer34()
-        testJianzhiOffer35()
+//        testJianzhiOffer35()
+//        testJianzhiOffer37()
+//        testJianzhiOffer38()
+//        testJianzhiOffer39()
+        testJianzhiOffer40()
     }
 
 
