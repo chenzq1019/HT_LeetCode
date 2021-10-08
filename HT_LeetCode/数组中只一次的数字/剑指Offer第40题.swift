@@ -23,18 +23,19 @@ func testJianzhiOffer40(){
 }
 
 
-private func findNumsAppearOnce(data: [Int], length: Int, num1:inout Int,numb2:inout Int){
+private func findNumsAppearOnce(data: [Int]?, length: Int, num1:inout Int,numb2:inout Int){
     if data == nil || length < 2 {
         return
     }
+    guard let array = data else { return  }
     var resultExclusiveOR : Int = 0
-    for value in data {
+    for value in array {
        resultExclusiveOR ^= value
     }
     let indexOf1 : Int = findFirstBitIs1(num: resultExclusiveOR)
     num1 =  0
     numb2 = 0
-    for value in data {
+    for value in array {
         if isBit1(num: value, indexBit: indexOf1) {
             num1 ^= value
         }else{

@@ -88,6 +88,7 @@ class ViewController: UIViewController {
 //        testJianzhiOffer38()
 //        testJianzhiOffer39()
         testJianzhiOffer40()
+        print(maxSubStringOf("abcabcdeabcdefga"))
     }
 
 
