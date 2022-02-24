@@ -42,6 +42,8 @@
 		DF5F29722593401900FD6E1C /* 剑指offer20题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5F29712593401900FD6E1C /* 剑指offer20题.swift */; };
 		DF5F297725945EB700FD6E1C /* 剑指offer21题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5F297625945EB700FD6E1C /* 剑指offer21题.swift */; };
 		DF5F297C2594682E00FD6E1C /* 剑指offer22题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5F297B2594682E00FD6E1C /* 剑指offer22题.swift */; };
+		DF71435227686D3C0064D11E /* 剑指Offer第41题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF71435127686D3C0064D11E /* 剑指Offer第41题.swift */; };
+		DF714355276879BF0064D11E /* 剑指Offer第42题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF714354276879BF0064D11E /* 剑指Offer第42题.swift */; };
 		DF746F96259DCF2100781978 /* 剑指offer24题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF746F95259DCF2100781978 /* 剑指offer24题.swift */; };
 		DF75DEDC25EDD03E004BC7DD /* 剑指offer34题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF75DEDB25EDD03E004BC7DD /* 剑指offer34题.swift */; };
 		DF75DEE025EF2F04004BC7DD /* 剑指Offer35题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF75DEDF25EF2F04004BC7DD /* 剑指Offer35题.swift */; };
@@ -95,6 +97,8 @@
 		DF5F29712593401900FD6E1C /* 剑指offer20题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer20题.swift"; sourceTree = "<group>"; };
 		DF5F297625945EB700FD6E1C /* 剑指offer21题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer21题.swift"; sourceTree = "<group>"; };
 		DF5F297B2594682E00FD6E1C /* 剑指offer22题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer22题.swift"; sourceTree = "<group>"; };
+		DF71435127686D3C0064D11E /* 剑指Offer第41题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer第41题.swift"; sourceTree = "<group>"; };
+		DF714354276879BF0064D11E /* 剑指Offer第42题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer第42题.swift"; sourceTree = "<group>"; };
 		DF746F95259DCF2100781978 /* 剑指offer24题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer24题.swift"; sourceTree = "<group>"; };
 		DF75DEDB25EDD03E004BC7DD /* 剑指offer34题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer34题.swift"; sourceTree = "<group>"; };
 		DF75DEDF25EF2F04004BC7DD /* 剑指Offer35题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer35题.swift"; sourceTree = "<group>"; };
@@ -172,6 +176,8 @@
 		DF1968DA256E59F80000E42E /* HT_LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				DF714353276879950064D11E /* 翻转单词顺序VS左旋转字符串 */,
+				DF71435027686CBB0064D11E /* 和为S的两个数字VS和为s的连续正数序列 */,
 				DF17FBCF2696DEAF00871C13 /* 数组中只一次的数字 */,
 				DF17FBCB2696A84700871C13 /* 二叉树的深度 */,
 				DF17FBC62696982600871C13 /* 数字在排序数组中出现的次数 */,
@@ -425,6 +431,22 @@
 			path = "栈的压入、弹出序列";
 			sourceTree = "<group>";
 		};
+		DF71435027686CBB0064D11E /* 和为S的两个数字VS和为s的连续正数序列 */ = {
+			isa = PBXGroup;
+			children = (
+				DF71435127686D3C0064D11E /* 剑指Offer第41题.swift */,
+			);
+			path = "和为S的两个数字VS和为s的连续正数序列";
+			sourceTree = "<group>";
+		};
+		DF714353276879950064D11E /* 翻转单词顺序VS左旋转字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				DF714354276879BF0064D11E /* 剑指Offer第42题.swift */,
+			);
+			path = "翻转单词顺序VS左旋转字符串";
+			sourceTree = "<group>";
+		};
 		DF746F94259DCEF200781978 /* 二叉搜索树的后续遍历序列 */ = {
 			isa = PBXGroup;
 			children = (
@@ -601,6 +623,7 @@
 			files = (
 				DF196902256F42740000E42E /* 火柴拼正方.swift in Sources */,
 				DF5F297725945EB700FD6E1C /* 剑指offer21题.swift in Sources */,
+				DF714355276879BF0064D11E /* 剑指Offer第42题.swift in Sources */,
 				DF5F28E625919E9100FD6E1C /* 剑指offer15题.swift in Sources */,
 				DF5F28EB25919ED600FD6E1C /* 剑指offer16题.swift in Sources */,
 				DF196980257102070000E42E /* findNumerInMartrix.swift in Sources */,
@@ -636,6 +659,7 @@
 				DF19696B25709F790000E42E /* findMiddleNumer.swift in Sources */,
 				DFDA68F325A8368000599C60 /* 剑指offer32题.swift in Sources */,
 				DF196907256F4C670000E42E /* FlogJump.swift in Sources */,
+				DF71435227686D3C0064D11E /* 剑指Offer第41题.swift in Sources */,
 				DF7E5EA42669CE7500234E8B /* 剑指Offer第37题.swift in Sources */,
 				DF1968F8256E5C5F0000E42E /* 双向链表.swift in Sources */,
 				DFDA68E425A550B500599C60 /* 剑指offer29题.swift in Sources */,

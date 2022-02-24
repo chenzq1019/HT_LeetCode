@@ -40,10 +40,10 @@ class ViewController: UIViewController {
         
 //        testMatchSqure()
         
-        testFromJumpSteps()
+//        testFromJumpSteps()
 //        testPrintBinaryTree()
         
-//        print(findMaxlenthPalindromicNumber(str: "abcdc"))
+        print(findMaxlenthPalindromicNumber(str: "abccba"))
         
 //        testRepeatDNA()
 //        testHuiwenShu()
@@ -87,8 +87,10 @@ class ViewController: UIViewController {
 //        testJianzhiOffer37()
 //        testJianzhiOffer38()
 //        testJianzhiOffer39()
-        testJianzhiOffer40()
-        print(maxSubStringOf("abcabcdeabcdefga"))
+//        testJianzhiOffer40()
+//        testJianzhiOffer41()
+        testJianZhiOffer42()
+//        print(maxSubStringOf("abcabcdeabcdefga"))
     }
 
 
