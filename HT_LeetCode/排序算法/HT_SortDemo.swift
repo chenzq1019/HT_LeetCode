@@ -28,7 +28,8 @@ public func swapInt(_ a:inout Int,_ b:inout Int) -> Void {
 
 func testSortFunction() -> Void {
 //    let list = [6,1,5,9,2,3,10,20,90,32,7,8]
-    let list = [6,1,5,9,2,3,10]
+//    let list = [6,1,5,9,2,3,10]
+    let list = [2,1,5,7,8,9,4,3]
     
     let sort = bubleSort(list: list){$0 > $1}
     print(sort)
@@ -40,6 +41,20 @@ func testSortFunction() -> Void {
     print(sort4)
     let sort5 = mergeSortArray(list)
     print(sort5)
+    
+    let sortArray = [10,20,40,50,60,90,100,120]
+    
+    let targetArray = [10,20,50,90,80]
+    
+    for target in targetArray {
+        var findcount = 0;
+        if let resutl = binarySearch(array: sortArray, target: target, start: 0, end: sortArray.count-1,total: &findcount) {
+            print("找到了数字\(resutl)")
+            print("找了\(findcount)次")
+        }else{
+            print("找不到")
+        }
+    }
     
 }
 
@@ -169,26 +184,26 @@ func quickSort(list:inout [Int], start: Int, end: Int) -> Void {
     if start > end {
         return
     }
-    var i = start
-    var j = end
-    let key = list[i]
-    while i < j {
+    var low = start
+    var high = end
+    let key = list[low]
+    while low < high {
         //从数组最后开始，与key进行比较，如果满足条件，则继续j--,较前面一位的数
-        while i < j && list[j] >= key {
-            j -= 1
+        while low < high && list[high] >= key {
+            high -= 1
         }
         //说明从后面找到一个不符合条件的j，然后我们与i进行交换
-        swapListValue(&list, i, j)
-        
+        swapListValue(&list, low, high)
         //然后从头位置点开始遍历的与key值进行比较，如果满足添加i++，
-        while i < j && list[i] <= key {
-            i += 1
+        while low < high && list[low] <= key {
+            low += 1
         }
         //再次交换
-        swapListValue(&list, i, j)
+        swapListValue(&list, low, high)
     }
-    quickSort(list: &list, start: i, end: end-1)
-    quickSort(list: &list, start: start, end: i-1)
+    list[low] = key;
+    quickSort(list: &list, start: low+1, end: end)
+    quickSort(list: &list, start: start, end: low-1)
     
 }
 
@@ -231,4 +246,26 @@ func mergeArrays(_ array1:[Int],_ array2:[Int]) -> [Int] {
         j += 1
     }
     return result
+}
+
+
+//二分查找
+fileprivate func binarySearch(array: [Int], target: Int ,start: Int,end: Int , total: inout Int) -> Int? {
+    if start > end {
+        return nil
+    }
+    total += 1
+    let first = start
+    let end = end
+    let mid :Int = start + (end - first) / 2
+    if array[mid] == target {
+        return target
+    }
+    if array[mid] > target {
+        return binarySearch(array: array, target: target, start: first ,end: mid - 1,total: &total)
+    }
+    if array[mid] < target {
+        return binarySearch(array: array, target: target, start: mid + 1, end: end,total: &total)
+    }
+    return nil
 }
