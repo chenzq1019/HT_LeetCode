@@ -91,6 +91,9 @@ class ViewController: UIViewController {
 //        testJianzhiOffer41()
         testJianZhiOffer42()
 //        print(maxSubStringOf("abcabcdeabcdefga"))
+//        testLeeCode350();
+        
+        testLeeCode14()
     }
 
 
