@@ -100,6 +100,8 @@ class ViewController: UIViewController {
         testLeeCode12()
         testLeeCode13()
         testLeeCode669()
+        testHanNuoTa()
+        testRobotMove()
     }
 
 

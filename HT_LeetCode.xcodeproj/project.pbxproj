@@ -61,12 +61,14 @@
 		DF7E5EA42669CE7500234E8B /* 剑指Offer第37题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E5EA32669CE7500234E8B /* 剑指Offer第37题.swift */; };
 		DF86581B25772C3700A50666 /* invertedOrderPrintLinkNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF86581A25772C3700A50666 /* invertedOrderPrintLinkNode.swift */; };
 		DF8658202577349400A50666 /* RebuildBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF86581F2577349400A50666 /* RebuildBinaryTree.swift */; };
+		DF9CFBE22A24889500A7E414 /* RobotMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9CFBE12A24889500A7E414 /* RobotMove.swift */; };
 		DFDA68D925A2B4AD00599C60 /* 剑指offer26题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDA68D825A2B4AD00599C60 /* 剑指offer26题.swift */; };
 		DFDA68DE25A3180C00599C60 /* 剑指offer28题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDA68DD25A3180C00599C60 /* 剑指offer28题.swift */; };
 		DFDA68E425A550B500599C60 /* 剑指offer29题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDA68E325A550B500599C60 /* 剑指offer29题.swift */; };
 		DFDA68E925A7F06A00599C60 /* 剑指offer30题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDA68E825A7F06A00599C60 /* 剑指offer30题.swift */; };
 		DFDA68EE25A7FC8E00599C60 /* 剑指offer31题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDA68ED25A7FC8E00599C60 /* 剑指offer31题.swift */; };
 		DFDA68F325A8368000599C60 /* 剑指offer32题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDA68F225A8368000599C60 /* 剑指offer32题.swift */; };
+		DFDD04222A2440BF00E4B21D /* hannuotaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDD04212A2440BF00E4B21D /* hannuotaTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -126,12 +128,14 @@
 		DF7E5EA32669CE7500234E8B /* 剑指Offer第37题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer第37题.swift"; sourceTree = "<group>"; };
 		DF86581A25772C3700A50666 /* invertedOrderPrintLinkNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invertedOrderPrintLinkNode.swift; sourceTree = "<group>"; };
 		DF86581F2577349400A50666 /* RebuildBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebuildBinaryTree.swift; sourceTree = "<group>"; };
+		DF9CFBE12A24889500A7E414 /* RobotMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotMove.swift; sourceTree = "<group>"; };
 		DFDA68D825A2B4AD00599C60 /* 剑指offer26题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer26题.swift"; sourceTree = "<group>"; };
 		DFDA68DD25A3180C00599C60 /* 剑指offer28题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer28题.swift"; sourceTree = "<group>"; };
 		DFDA68E325A550B500599C60 /* 剑指offer29题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer29题.swift"; sourceTree = "<group>"; };
 		DFDA68E825A7F06A00599C60 /* 剑指offer30题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer30题.swift"; sourceTree = "<group>"; };
 		DFDA68ED25A7FC8E00599C60 /* 剑指offer31题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer31题.swift"; sourceTree = "<group>"; };
 		DFDA68F225A8368000599C60 /* 剑指offer32题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer32题.swift"; sourceTree = "<group>"; };
+		DFDD04212A2440BF00E4B21D /* hannuotaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hannuotaTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +254,8 @@
 				DF1968FE256E62D40000E42E /* 二叉树中和为某一个值的路径 */,
 				DF1968F6256E5BFD0000E42E /* 二叉搜索树与双向链表 */,
 				DF1968F1256E5A200000E42E /* 二叉树上两个节点的最近公共祖先 */,
+				DF9CFBE02A24884B00A7E414 /* 机器人移动问题 */,
+				DFDD04202A24409900E4B21D /* 汉诺塔 */,
 				DF1968DB256E59F80000E42E /* AppDelegate.swift */,
 				DF1968DD256E59F80000E42E /* SceneDelegate.swift */,
 				DF1968DF256E59F80000E42E /* ViewController.swift */,
@@ -613,6 +619,14 @@
 			path = "重建二叉树";
 			sourceTree = "<group>";
 		};
+		DF9CFBE02A24884B00A7E414 /* 机器人移动问题 */ = {
+			isa = PBXGroup;
+			children = (
+				DF9CFBE12A24889500A7E414 /* RobotMove.swift */,
+			);
+			path = "机器人移动问题";
+			sourceTree = "<group>";
+		};
 		DFDA68D725A2B2D500599C60 /* 复杂链表的复制 */ = {
 			isa = PBXGroup;
 			children = (
@@ -659,6 +673,14 @@
 				DFDA68F225A8368000599C60 /* 剑指offer32题.swift */,
 			);
 			path = "从1到n整数中1出现的次数";
+			sourceTree = "<group>";
+		};
+		DFDD04202A24409900E4B21D /* 汉诺塔 */ = {
+			isa = PBXGroup;
+			children = (
+				DFDD04212A2440BF00E4B21D /* hannuotaTest.swift */,
+			);
+			path = "汉诺塔";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -752,8 +774,10 @@
 				DF75DEDC25EDD03E004BC7DD /* 剑指offer34题.swift in Sources */,
 				DF6F0D762A1C9422000D2131 /* LeeCode179.swift in Sources */,
 				DF19696625709ED30000E42E /* NoRepeatMaxLenthSubStr.swift in Sources */,
+				DF9CFBE22A24889500A7E414 /* RobotMove.swift in Sources */,
 				DF5F28F02591CCFA00FD6E1C /* 剑指offer19.swift in Sources */,
 				DF6F0D7C2A1DBCB0000D2131 /* LeeCode10.swift in Sources */,
+				DFDD04222A2440BF00E4B21D /* hannuotaTest.swift in Sources */,
 				DF7E5E9F2668DDEA00234E8B /* 剑指Offer36题.swift in Sources */,
 				DF4A7FF4257A12C600194D84 /* rotateArraysMinNumber.swift in Sources */,
 				DF6F0D882A1E1A38000D2131 /* LeeCode669.swift in Sources */,
