@@ -31,6 +31,9 @@
 		DF19696B25709F790000E42E /* findMiddleNumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19696A25709F790000E42E /* findMiddleNumer.swift */; };
 		DF19696F2570A3980000E42E /* HT_SortDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19696E2570A3980000E42E /* HT_SortDemo.swift */; };
 		DF196980257102070000E42E /* findNumerInMartrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19697F257102070000E42E /* findNumerInMartrix.swift */; };
+		DF38F762288659C1004E63E5 /* LeeCode350.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF38F761288659C1004E63E5 /* LeeCode350.swift */; };
+		DF38F76528868506004E63E5 /* LeeCode14.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF38F76428868506004E63E5 /* LeeCode14.swift */; };
+		DF38F7692886966D004E63E5 /* LeeCode122.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF38F7682886966D004E63E5 /* LeeCode122.swift */; };
 		DF4A7B322589ABEC0027AFAE /* 剑指Offer第12题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4A7B312589ABEC0027AFAE /* 剑指Offer第12题.swift */; };
 		DF4A7FEF257A0E1200194D84 /* twoStacksQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4A7FEE257A0E1100194D84 /* twoStacksQueue.swift */; };
 		DF4A7FF4257A12C600194D84 /* rotateArraysMinNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4A7FF3257A12C600194D84 /* rotateArraysMinNumber.swift */; };
@@ -42,6 +45,13 @@
 		DF5F29722593401900FD6E1C /* 剑指offer20题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5F29712593401900FD6E1C /* 剑指offer20题.swift */; };
 		DF5F297725945EB700FD6E1C /* 剑指offer21题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5F297625945EB700FD6E1C /* 剑指offer21题.swift */; };
 		DF5F297C2594682E00FD6E1C /* 剑指offer22题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5F297B2594682E00FD6E1C /* 剑指offer22题.swift */; };
+		DF6F0D762A1C9422000D2131 /* LeeCode179.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F0D752A1C9422000D2131 /* LeeCode179.swift */; };
+		DF6F0D792A1CC6EB000D2131 /* LeeCode08.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F0D782A1CC6EB000D2131 /* LeeCode08.swift */; };
+		DF6F0D7C2A1DBCB0000D2131 /* LeeCode10.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F0D7B2A1DBCB0000D2131 /* LeeCode10.swift */; };
+		DF6F0D7F2A1DEF65000D2131 /* LeeCode11.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F0D7E2A1DEF65000D2131 /* LeeCode11.swift */; };
+		DF6F0D822A1DF238000D2131 /* LeeCode12.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F0D812A1DF238000D2131 /* LeeCode12.swift */; };
+		DF6F0D852A1E04A2000D2131 /* LeeCode13.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F0D842A1E04A2000D2131 /* LeeCode13.swift */; };
+		DF6F0D882A1E1A38000D2131 /* LeeCode669.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F0D872A1E1A38000D2131 /* LeeCode669.swift */; };
 		DF71435227686D3C0064D11E /* 剑指Offer第41题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF71435127686D3C0064D11E /* 剑指Offer第41题.swift */; };
 		DF714355276879BF0064D11E /* 剑指Offer第42题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF714354276879BF0064D11E /* 剑指Offer第42题.swift */; };
 		DF746F96259DCF2100781978 /* 剑指offer24题.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF746F95259DCF2100781978 /* 剑指offer24题.swift */; };
@@ -86,6 +96,9 @@
 		DF19696A25709F790000E42E /* findMiddleNumer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findMiddleNumer.swift; sourceTree = "<group>"; };
 		DF19696E2570A3980000E42E /* HT_SortDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HT_SortDemo.swift; sourceTree = "<group>"; };
 		DF19697F257102070000E42E /* findNumerInMartrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findNumerInMartrix.swift; sourceTree = "<group>"; };
+		DF38F761288659C1004E63E5 /* LeeCode350.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeCode350.swift; sourceTree = "<group>"; };
+		DF38F76428868506004E63E5 /* LeeCode14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeCode14.swift; sourceTree = "<group>"; };
+		DF38F7682886966D004E63E5 /* LeeCode122.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeCode122.swift; sourceTree = "<group>"; };
 		DF4A7B312589ABEC0027AFAE /* 剑指Offer第12题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer第12题.swift"; sourceTree = "<group>"; };
 		DF4A7FEE257A0E1100194D84 /* twoStacksQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoStacksQueue.swift; sourceTree = "<group>"; };
 		DF4A7FF3257A12C600194D84 /* rotateArraysMinNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotateArraysMinNumber.swift; sourceTree = "<group>"; };
@@ -97,6 +110,13 @@
 		DF5F29712593401900FD6E1C /* 剑指offer20题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer20题.swift"; sourceTree = "<group>"; };
 		DF5F297625945EB700FD6E1C /* 剑指offer21题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer21题.swift"; sourceTree = "<group>"; };
 		DF5F297B2594682E00FD6E1C /* 剑指offer22题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer22题.swift"; sourceTree = "<group>"; };
+		DF6F0D752A1C9422000D2131 /* LeeCode179.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeCode179.swift; sourceTree = "<group>"; };
+		DF6F0D782A1CC6EB000D2131 /* LeeCode08.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeCode08.swift; sourceTree = "<group>"; };
+		DF6F0D7B2A1DBCB0000D2131 /* LeeCode10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeCode10.swift; sourceTree = "<group>"; };
+		DF6F0D7E2A1DEF65000D2131 /* LeeCode11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeCode11.swift; sourceTree = "<group>"; };
+		DF6F0D812A1DF238000D2131 /* LeeCode12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeCode12.swift; sourceTree = "<group>"; };
+		DF6F0D842A1E04A2000D2131 /* LeeCode13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeCode13.swift; sourceTree = "<group>"; };
+		DF6F0D872A1E1A38000D2131 /* LeeCode669.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeCode669.swift; sourceTree = "<group>"; };
 		DF71435127686D3C0064D11E /* 剑指Offer第41题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer第41题.swift"; sourceTree = "<group>"; };
 		DF714354276879BF0064D11E /* 剑指Offer第42题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer第42题.swift"; sourceTree = "<group>"; };
 		DF746F95259DCF2100781978 /* 剑指offer24题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指offer24题.swift"; sourceTree = "<group>"; };
@@ -176,6 +196,16 @@
 		DF1968DA256E59F80000E42E /* HT_LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				DF6F0D862A1E1945000D2131 /* 换硬币 */,
+				DF6F0D832A1E047C000D2131 /* 罗马数字转整数 */,
+				DF6F0D802A1DF214000D2131 /* 整数转罗马数字 */,
+				DF6F0D7D2A1DEF3F000D2131 /* 盛最多水的容器 */,
+				DF6F0D7A2A1DBC88000D2131 /* 正则表达式匹配 */,
+				DF6F0D772A1CC6C5000D2131 /* 字符串转换整数 */,
+				DF6F0D742A1C93EB000D2131 /* 数组元素组成最大的数 */,
+				DF38F7672886964B004E63E5 /* 买卖股票的最佳时机 */,
+				DF38F763288684DD004E63E5 /* 最长公共前缀 */,
+				DF38F76028865980004E63E5 /* 两个数组的交集 */,
 				DF714353276879950064D11E /* 翻转单词顺序VS左旋转字符串 */,
 				DF71435027686CBB0064D11E /* 和为S的两个数字VS和为s的连续正数序列 */,
 				DF17FBCF2696DEAF00871C13 /* 数组中只一次的数字 */,
@@ -343,6 +373,30 @@
 			path = "二维数组中查找某个数";
 			sourceTree = "<group>";
 		};
+		DF38F76028865980004E63E5 /* 两个数组的交集 */ = {
+			isa = PBXGroup;
+			children = (
+				DF38F761288659C1004E63E5 /* LeeCode350.swift */,
+			);
+			path = "两个数组的交集";
+			sourceTree = "<group>";
+		};
+		DF38F763288684DD004E63E5 /* 最长公共前缀 */ = {
+			isa = PBXGroup;
+			children = (
+				DF38F76428868506004E63E5 /* LeeCode14.swift */,
+			);
+			path = "最长公共前缀";
+			sourceTree = "<group>";
+		};
+		DF38F7672886964B004E63E5 /* 买卖股票的最佳时机 */ = {
+			isa = PBXGroup;
+			children = (
+				DF38F7682886966D004E63E5 /* LeeCode122.swift */,
+			);
+			path = "买卖股票的最佳时机";
+			sourceTree = "<group>";
+		};
 		DF4A7B302589AB360027AFAE /* 打印1到最大的n位数 */ = {
 			isa = PBXGroup;
 			children = (
@@ -429,6 +483,62 @@
 				DF5F297B2594682E00FD6E1C /* 剑指offer22题.swift */,
 			);
 			path = "栈的压入、弹出序列";
+			sourceTree = "<group>";
+		};
+		DF6F0D742A1C93EB000D2131 /* 数组元素组成最大的数 */ = {
+			isa = PBXGroup;
+			children = (
+				DF6F0D752A1C9422000D2131 /* LeeCode179.swift */,
+			);
+			path = "数组元素组成最大的数";
+			sourceTree = "<group>";
+		};
+		DF6F0D772A1CC6C5000D2131 /* 字符串转换整数 */ = {
+			isa = PBXGroup;
+			children = (
+				DF6F0D782A1CC6EB000D2131 /* LeeCode08.swift */,
+			);
+			path = "字符串转换整数";
+			sourceTree = "<group>";
+		};
+		DF6F0D7A2A1DBC88000D2131 /* 正则表达式匹配 */ = {
+			isa = PBXGroup;
+			children = (
+				DF6F0D7B2A1DBCB0000D2131 /* LeeCode10.swift */,
+			);
+			path = "正则表达式匹配";
+			sourceTree = "<group>";
+		};
+		DF6F0D7D2A1DEF3F000D2131 /* 盛最多水的容器 */ = {
+			isa = PBXGroup;
+			children = (
+				DF6F0D7E2A1DEF65000D2131 /* LeeCode11.swift */,
+			);
+			path = "盛最多水的容器";
+			sourceTree = "<group>";
+		};
+		DF6F0D802A1DF214000D2131 /* 整数转罗马数字 */ = {
+			isa = PBXGroup;
+			children = (
+				DF6F0D812A1DF238000D2131 /* LeeCode12.swift */,
+			);
+			path = "整数转罗马数字";
+			sourceTree = "<group>";
+		};
+		DF6F0D832A1E047C000D2131 /* 罗马数字转整数 */ = {
+			isa = PBXGroup;
+			children = (
+				DF6F0D842A1E04A2000D2131 /* LeeCode13.swift */,
+			);
+			path = "罗马数字转整数";
+			sourceTree = "<group>";
+		};
+		DF6F0D862A1E1945000D2131 /* 换硬币 */ = {
+			isa = PBXGroup;
+			children = (
+				DF6F0D872A1E1A38000D2131 /* LeeCode669.swift */,
+			);
+			path = "换硬币";
 			sourceTree = "<group>";
 		};
 		DF71435027686CBB0064D11E /* 和为S的两个数字VS和为s的连续正数序列 */ = {
@@ -624,6 +734,7 @@
 				DF196902256F42740000E42E /* 火柴拼正方.swift in Sources */,
 				DF5F297725945EB700FD6E1C /* 剑指offer21题.swift in Sources */,
 				DF714355276879BF0064D11E /* 剑指Offer第42题.swift in Sources */,
+				DF38F7692886966D004E63E5 /* LeeCode122.swift in Sources */,
 				DF5F28E625919E9100FD6E1C /* 剑指offer15题.swift in Sources */,
 				DF5F28EB25919ED600FD6E1C /* 剑指offer16题.swift in Sources */,
 				DF196980257102070000E42E /* findNumerInMartrix.swift in Sources */,
@@ -633,19 +744,26 @@
 				DF19696F2570A3980000E42E /* HT_SortDemo.swift in Sources */,
 				DF196911256F56C60000E42E /* palindromicNumber.swift in Sources */,
 				DF196961257093F20000E42E /* MerginOrderlink.swift in Sources */,
+				DF38F76528868506004E63E5 /* LeeCode14.swift in Sources */,
 				DF8658202577349400A50666 /* RebuildBinaryTree.swift in Sources */,
+				DF6F0D822A1DF238000D2131 /* LeeCode12.swift in Sources */,
 				DF19690C256F50170000E42E /* 从上到小打印二叉树.swift in Sources */,
 				DF5F28E02591923200FD6E1C /* 剑指offer14题.swift in Sources */,
 				DF75DEDC25EDD03E004BC7DD /* 剑指offer34题.swift in Sources */,
+				DF6F0D762A1C9422000D2131 /* LeeCode179.swift in Sources */,
 				DF19696625709ED30000E42E /* NoRepeatMaxLenthSubStr.swift in Sources */,
 				DF5F28F02591CCFA00FD6E1C /* 剑指offer19.swift in Sources */,
+				DF6F0D7C2A1DBCB0000D2131 /* LeeCode10.swift in Sources */,
 				DF7E5E9F2668DDEA00234E8B /* 剑指Offer36题.swift in Sources */,
 				DF4A7FF4257A12C600194D84 /* rotateArraysMinNumber.swift in Sources */,
+				DF6F0D882A1E1A38000D2131 /* LeeCode669.swift in Sources */,
+				DF38F762288659C1004E63E5 /* LeeCode350.swift in Sources */,
 				DFDA68EE25A7FC8E00599C60 /* 剑指offer31题.swift in Sources */,
 				DF5F297C2594682E00FD6E1C /* 剑指offer22题.swift in Sources */,
 				DF1968FC256E62CF0000E42E /* 二叉树中和为某一个值的路径.swift in Sources */,
 				DF17FBCD2696A8F400871C13 /* 剑指Offer第39题.swift in Sources */,
 				DF75DEE025EF2F04004BC7DD /* 剑指Offer35题.swift in Sources */,
+				DF6F0D852A1E04A2000D2131 /* LeeCode13.swift in Sources */,
 				DF1968F3256E5A5B0000E42E /* 二叉树的公共祖先.swift in Sources */,
 				DF86581B25772C3700A50666 /* invertedOrderPrintLinkNode.swift in Sources */,
 				DF17FBD12696DEE400871C13 /* 剑指Offer第40题.swift in Sources */,
@@ -659,11 +777,13 @@
 				DF19696B25709F790000E42E /* findMiddleNumer.swift in Sources */,
 				DFDA68F325A8368000599C60 /* 剑指offer32题.swift in Sources */,
 				DF196907256F4C670000E42E /* FlogJump.swift in Sources */,
+				DF6F0D7F2A1DEF65000D2131 /* LeeCode11.swift in Sources */,
 				DF71435227686D3C0064D11E /* 剑指Offer第41题.swift in Sources */,
 				DF7E5EA42669CE7500234E8B /* 剑指Offer第37题.swift in Sources */,
 				DF1968F8256E5C5F0000E42E /* 双向链表.swift in Sources */,
 				DFDA68E425A550B500599C60 /* 剑指offer29题.swift in Sources */,
 				DF147A6325ABF68900A0536D /* 剑指offer33题.swift in Sources */,
+				DF6F0D792A1CC6EB000D2131 /* LeeCode08.swift in Sources */,
 				DF1968DE256E59F80000E42E /* SceneDelegate.swift in Sources */,
 				DF4A7FEF257A0E1200194D84 /* twoStacksQueue.swift in Sources */,
 				DFDA68DE25A3180C00599C60 /* 剑指offer28题.swift in Sources */,

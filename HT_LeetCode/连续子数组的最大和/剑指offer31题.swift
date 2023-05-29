@@ -23,7 +23,7 @@ func testJianzhiOffer31() -> Void {
     let reusult1 = findGreaterSumOfSubArray(input: list1, length: list1.count)
     print("普通算法最大数组和为=\(reusult1)")
     
-    let reuslt2 = findGreaterSumOfSubArray2(input: list1, length: list1.count)
+    let reuslt2 = findGreaterSumOfSubArray2(input: list2, length: list1.count)
     print("动态规划之递归最大数组和为=\(reuslt2)")
     
     let reuslt3 = findGreaterSumOfSubArray3(input: list3, length: list3.count)

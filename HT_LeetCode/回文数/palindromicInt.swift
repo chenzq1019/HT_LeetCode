@@ -23,7 +23,7 @@ import Foundation
  *
  **/
 func testHuiwenShu() -> Void {
-    if judgeHuiwenshu(target: 121) {
+    if judgeHuiwenshu(target: 0) {
         print("是回文数")
     }
 }
@@ -33,8 +33,8 @@ func judgeHuiwenshu(target: Int) -> Bool {
     if target < 0 {
         return false
     }
-    if target < 10 {
-        return false
+    if target < 10 && target >= 0 {
+        return true
     }
     var older = target
     var sum = 0

@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         print(findMaxlenthPalindromicNumber(str: "abccba"))
         
 //        testRepeatDNA()
-//        testHuiwenShu()
+        testHuiwenShu()
 //        testMergeTwoList()
           testSortFunction()
 //        testFindNumberInMatrix()
@@ -82,7 +82,7 @@ class ViewController: UIViewController {
 //        testJianzhiOffer30()
 //        testJianzhiOffer31()
 //        testJianzhiOffer32()
-//        testJianzhiOffer34()
+        testJianzhiOffer34()
 //        testJianzhiOffer35()
 //        testJianzhiOffer37()
 //        testJianzhiOffer38()
@@ -93,7 +93,13 @@ class ViewController: UIViewController {
 //        print(maxSubStringOf("abcabcdeabcdefga"))
 //        testLeeCode350();
         
-        testLeeCode14()
+//        testLeeCode14()
+//        testLeeCode179()
+//        testLeeCode122()
+//        testLeeCode08()
+        testLeeCode12()
+        testLeeCode13()
+        testLeeCode669()
     }
 
 
