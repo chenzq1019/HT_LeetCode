@@ -31,6 +31,7 @@
 		DF19696B25709F790000E42E /* findMiddleNumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19696A25709F790000E42E /* findMiddleNumer.swift */; };
 		DF19696F2570A3980000E42E /* HT_SortDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19696E2570A3980000E42E /* HT_SortDemo.swift */; };
 		DF196980257102070000E42E /* findNumerInMartrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF19697F257102070000E42E /* findNumerInMartrix.swift */; };
+		DF255EBE2B453D6B00BE5481 /* LeeCode189.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF255EBD2B453D6B00BE5481 /* LeeCode189.swift */; };
 		DF38F762288659C1004E63E5 /* LeeCode350.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF38F761288659C1004E63E5 /* LeeCode350.swift */; };
 		DF38F76528868506004E63E5 /* LeeCode14.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF38F76428868506004E63E5 /* LeeCode14.swift */; };
 		DF38F7692886966D004E63E5 /* LeeCode122.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF38F7682886966D004E63E5 /* LeeCode122.swift */; };
@@ -98,6 +99,7 @@
 		DF19696A25709F790000E42E /* findMiddleNumer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findMiddleNumer.swift; sourceTree = "<group>"; };
 		DF19696E2570A3980000E42E /* HT_SortDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HT_SortDemo.swift; sourceTree = "<group>"; };
 		DF19697F257102070000E42E /* findNumerInMartrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findNumerInMartrix.swift; sourceTree = "<group>"; };
+		DF255EBD2B453D6B00BE5481 /* LeeCode189.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeCode189.swift; sourceTree = "<group>"; };
 		DF38F761288659C1004E63E5 /* LeeCode350.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeCode350.swift; sourceTree = "<group>"; };
 		DF38F76428868506004E63E5 /* LeeCode14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeCode14.swift; sourceTree = "<group>"; };
 		DF38F7682886966D004E63E5 /* LeeCode122.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeCode122.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 		DF1968DA256E59F80000E42E /* HT_LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				DF255EB62B45395100BE5481 /* 算法集合 */,
 				DF6F0D862A1E1945000D2131 /* 换硬币 */,
 				DF6F0D832A1E047C000D2131 /* 罗马数字转整数 */,
 				DF6F0D802A1DF214000D2131 /* 整数转罗马数字 */,
@@ -207,9 +210,6 @@
 				DF6F0D7A2A1DBC88000D2131 /* 正则表达式匹配 */,
 				DF6F0D772A1CC6C5000D2131 /* 字符串转换整数 */,
 				DF6F0D742A1C93EB000D2131 /* 数组元素组成最大的数 */,
-				DF38F7672886964B004E63E5 /* 买卖股票的最佳时机 */,
-				DF38F763288684DD004E63E5 /* 最长公共前缀 */,
-				DF38F76028865980004E63E5 /* 两个数组的交集 */,
 				DF714353276879950064D11E /* 翻转单词顺序VS左旋转字符串 */,
 				DF71435027686CBB0064D11E /* 和为S的两个数字VS和为s的连续正数序列 */,
 				DF17FBCF2696DEAF00871C13 /* 数组中只一次的数字 */,
@@ -377,6 +377,49 @@
 				DF19697F257102070000E42E /* findNumerInMartrix.swift */,
 			);
 			path = "二维数组中查找某个数";
+			sourceTree = "<group>";
+		};
+		DF255EB62B45395100BE5481 /* 算法集合 */ = {
+			isa = PBXGroup;
+			children = (
+				DF255EBA2B453CC600BE5481 /* 动态规划 */,
+				DF255EB92B453C8200BE5481 /* 链表系列 */,
+				DF255EB72B45397100BE5481 /* 数组系列 */,
+			);
+			path = "算法集合";
+			sourceTree = "<group>";
+		};
+		DF255EB72B45397100BE5481 /* 数组系列 */ = {
+			isa = PBXGroup;
+			children = (
+				DF255EBC2B453D4800BE5481 /* 旋转数组 */,
+				DF38F76028865980004E63E5 /* 两个数组的交集 */,
+				DF38F763288684DD004E63E5 /* 最长公共前缀 */,
+				DF38F7672886964B004E63E5 /* 买卖股票的最佳时机 */,
+			);
+			path = "数组系列";
+			sourceTree = "<group>";
+		};
+		DF255EB92B453C8200BE5481 /* 链表系列 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "链表系列";
+			sourceTree = "<group>";
+		};
+		DF255EBA2B453CC600BE5481 /* 动态规划 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "动态规划";
+			sourceTree = "<group>";
+		};
+		DF255EBC2B453D4800BE5481 /* 旋转数组 */ = {
+			isa = PBXGroup;
+			children = (
+				DF255EBD2B453D6B00BE5481 /* LeeCode189.swift */,
+			);
+			path = "旋转数组";
 			sourceTree = "<group>";
 		};
 		DF38F76028865980004E63E5 /* 两个数组的交集 */ = {
@@ -787,6 +830,7 @@
 				DF1968FC256E62CF0000E42E /* 二叉树中和为某一个值的路径.swift in Sources */,
 				DF17FBCD2696A8F400871C13 /* 剑指Offer第39题.swift in Sources */,
 				DF75DEE025EF2F04004BC7DD /* 剑指Offer35题.swift in Sources */,
+				DF255EBE2B453D6B00BE5481 /* LeeCode189.swift in Sources */,
 				DF6F0D852A1E04A2000D2131 /* LeeCode13.swift in Sources */,
 				DF1968F3256E5A5B0000E42E /* 二叉树的公共祖先.swift in Sources */,
 				DF86581B25772C3700A50666 /* invertedOrderPrintLinkNode.swift in Sources */,

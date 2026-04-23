@@ -35,7 +35,7 @@ import Foundation
 
 func testLeeCode122(){
     let test1 = [7,1,5,3,6,4]
-    let test2 = [1,2,3,4,5]
+    let test2 = [1,2,6,4,5]
     let test3 = [7,6,4,3,1]
     
     print(maxIncome(stocks: test1))
