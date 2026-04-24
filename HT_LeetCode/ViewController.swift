@@ -102,7 +102,11 @@ class ViewController: UIViewController {
 //        testLeeCode669()
 //        testHanNuoTa()
 //        testRobotMove()
-        testLeeCode189()
+//        testLeeCode189()
+//        testLeeCode26()
+//        testLeeCode66()
+//        testLeeCode19()
+        testLeeCode300()
     }
 
 
